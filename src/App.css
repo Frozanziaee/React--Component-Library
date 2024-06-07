@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.title {
+  margin-top: 0;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 1.25rem;
+  line-height: 16px;
+  color: #5E5D5D;  
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+
