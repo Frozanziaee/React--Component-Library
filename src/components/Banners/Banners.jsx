@@ -10,7 +10,7 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 export default function Banners(){
     return (
         <section className='banners-section'>
-      <div className="title">
+      <div className="title column">
         <h2 className="title-section">success</h2>
         <h2 className="title-section">warning</h2>
         <h2 className="title-section">error</h2>

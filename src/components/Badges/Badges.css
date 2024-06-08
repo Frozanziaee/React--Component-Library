@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    margin: 250px auto;
+    margin: 3em auto;
+    flex-wrap: wrap;
 }
 
 .badges {

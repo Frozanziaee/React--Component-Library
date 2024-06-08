@@ -4,7 +4,17 @@ import "./Cards.css"
 
 export default function Cards(){
     return (
-        <section className="cards-section">
+        <section className="cards-section flex">
+            <CardsTails>
+                <div className="card flex">
+                    <span className="cloud-icon"><HiOutlineCloudUpload className="icon-cards" /></span>
+                    <div className="inter-font center">
+                        <h3 className="title-cards ">Easy Deployment</h3>
+                        <p className="text-cards">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                    </div>
+                </div>
+            </CardsTails>
+
             <CardsTails>
                 <div className="card flex">
                     <span className="cloud-icon"><HiOutlineCloudUpload className="icon-cards" /></span>

@@ -4,12 +4,13 @@
     font-weight: 500;
     padding: .5em;
 }
+
 .banners {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
 }
 
 .banners-section {
@@ -82,4 +83,22 @@
 
 .icon-neutral {
     color: #60A5FA;
+}
+
+@media(max-width:768px) {
+    .banners-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .banners {
+        flex-direction: column;
+    }
+    .column {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2em;
+    }
+    .title-section{
+        margin: 0;
+    }
 }
