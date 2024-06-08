@@ -1,0 +1,42 @@
+
+.cards {
+    margin: 100px auto;
+    width: 384px;
+}
+
+.card {
+   flex-direction: column; 
+   justify-content: center;
+   background: #F9FAFB;
+   padding: 1em;
+   border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 25px 0px #0000001A;
+}
+
+.title-cards {
+    color: #111827;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 28px;
+} 
+
+.text-cards {
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+.cloud-icon {
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    background: #3F75FE;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 0.3em 0.4em;
+    border-radius: 6px;
+    position: absolute;
+    top: 65px;
+}

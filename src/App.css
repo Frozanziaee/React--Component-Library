@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  background: #eee;
 }
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -28,4 +29,6 @@ body {
   gap: .5em;
 }
 
-
+.center {
+  text-align: center;
+}
